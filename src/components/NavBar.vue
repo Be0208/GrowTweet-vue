@@ -9,7 +9,7 @@ import { RouterLink } from 'vue-router'
 
       <nav>
         <RouterLink to="/">Home</RouterLink> // foi
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/explore">explore</RouterLink> // foi
         <RouterLink to="/login">Login</RouterLink> // foi
         <RouterLink to="/register">criar conta</RouterLink> // nao precisa
       </nav>
@@ -28,7 +28,7 @@ import { RouterLink } from 'vue-router'
     </div>
     <div class="sidebar-item">
       <span class="icon"><img src="../assets/images/icone_explorar.svg" /></span>
-      <RouterLink to="/about">Explorar</RouterLink>
+      <RouterLink to="/explore">Explorar</RouterLink>
     </div>
     <div class="sidebar-item">
       <span class="icon"><img src="../assets/images/icone_perfil.svg" /></span>
