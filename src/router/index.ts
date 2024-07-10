@@ -32,4 +32,6 @@ const router = createRouter({
   ]
 })
 
+// esse aq é a copia 
+
 export default router
